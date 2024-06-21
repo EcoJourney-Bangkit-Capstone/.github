@@ -161,9 +161,9 @@ For Object Detection Model, you can run the model in your local machine by follo
 3. Download object detection dataset from [Drive](https://drive.google.com/drive/folders/153YmYgm2rV4s0FJ5HKiO-UQ5wUCtS_C5?usp=sharing)
 4. Install the required packages
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 5. Run the notebook
 6. Done
@@ -174,22 +174,22 @@ For Image Classification Model, you can run the model in your local machine by f
 
 1. Clone the Machine Learning Repository
 
-```bash
-git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML.git
-```
+    ```bash
+    git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML.git
+    ```
 
 2. Change the directory to /Waste-Image-Classification/
 
-```bash
-cd Waste-Image-Classification/
-```
+    ```bash
+    cd Waste-Image-Classification/
+    ```
 
 3. Download image classification dataset from [Drive](https://drive.google.com/drive/folders/153YmYgm2rV4s0FJ5HKiO-UQ5wUCtS_C5?usp=sharing)
 4. Install the required packages
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 5. Run the notebook
 6. Done
