@@ -1,7 +1,7 @@
 # Capstone Bangkit Academy C241-PS055
 
 <div align="center">
-  <img src="./picture/logo-ecojourney.png" width="500">
+  <img src=".././picture/logo-ecojourney.png" width="500">
 </div>
 
 ## Introduction
