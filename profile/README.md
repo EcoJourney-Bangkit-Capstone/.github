@@ -1,17 +1,21 @@
 # Capstone Bangkit Academy C241-PS055
-![RashIO-Logo](./logo-ecojourney.png)
+
+![EcoJourney-Logo](../picture/logo-ecojourney.png)
+
+<div>
 
 ## Introduction
-*EcoJourney* aims to tackle environmental challenges in Indonesia by promoting community awareness and providing education on proper waste management. By leveraging machine learning, mobile development, and cloud computing, the project addresses the urgent need for sustainable practices to combat climate change. The initiative focuses on reducing waste pollution and empowering individuals to actively participate in environmental stewardship.
 
+_EcoJourney_ aims to tackle environmental challenges in Indonesia by promoting community awareness and providing education on proper waste management. By leveraging machine learning, mobile development, and cloud computing, the project addresses the urgent need for sustainable practices to combat climate change. The initiative focuses on reducing waste pollution and empowering individuals to actively participate in environmental stewardship.
 
 ## Team Members
+
 C241-PS055 is a group of people consisting of the best civilians on earth. We are an cohorts from Bangkit Academy. C241-PS055 consists of 7 members :
 
-<p align="center"> 
+<div> 
 <table>
     <tr>
-        <td colspan=3 align="center" style="font-weight:bold">Kelompok C241-PS055</td>
+        <td colspan=4 align="center" style="font-weight:bold">Kelompok C241-PS055</td>
     </tr>
     <tr>
         <td>No.</td>
@@ -62,14 +66,18 @@ C241-PS055 is a group of people consisting of the best civilians on earth. We ar
         <td>Universitas Indonesia</td>
     </tr>
 </table>
-</p>
+<br>
 
 Together, we are eager to make impactful changes in the world.
 
 ## Project Scope & Deliverables:
+
 ### Project Goal:
+
 - Build a mobile application (Android) that can classify waste type and give article or news recommendation based on classified waste type.
+
 ### Deliverables:
+
 - Application Prototype
 - Waste Recognition ML Model
 - API Endpoint and Documentation
@@ -79,6 +87,7 @@ Together, we are eager to make impactful changes in the world.
 - Final Product
 
 ### Scope:
+
 - Article and News Recommendation
 - Waste Recognition Model
 - Login and Register with Personalized User Survey UI
@@ -90,9 +99,100 @@ Together, we are eager to make impactful changes in the world.
 - Article and News Endpoint
 
 ## Repositories
-- [RashIO-API](https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-backend)
-- [RashIO-Machine Learning](https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML)
-- [RashIO-Mobile Development]( https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-Mobile)
+
+- [EcoJourney API](https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-backend)
+- [EcoJourney Machine Learning](https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML)
+- [EcoJourney Mobile Development](https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-Mobile)
+
+## How to Run
+
+### API
+
+1. Clone the API Repository
+
+    ```bash
+    git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-backend.git
+    ```
+
+2. Open the project in your favorite IDE
+3. Install the required packages
+
+    ```bash
+    go mod tidy
+    ```
+
+4. Run the project with docker-compose
+
+    ```bash
+    docker-compose up -d
+    ```
+
+5. Done
+
+### Mobile Development
+
+1. Clone the Mobile Development Repository
+
+    ```bash
+    git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-Mobile.git
+    ```
+
+2. Open the project in Android Studio
+3. Sync the project with Gradle
+4. Run the project in an emulator or physical device
+5. Done
+
+### Machine Learning
+
+For Object Detection Model, you can run the model in your local machine by following these steps:
+
+1. Clone the Machine Learning Repository
+
+    ```bash
+    git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML.git
+    ```
+
+2. Change the directory to /TFLite-Trash-Detection-with-TFLite-Model-Maker/
+
+    ```bash
+    cd TFLite-Trash-Detection-with-TFLite-Model-Maker/
+    ```
+
+3. Download object detection dataset from [Drive](https://drive.google.com/drive/folders/153YmYgm2rV4s0FJ5HKiO-UQ5wUCtS_C5?usp=sharing)
+4. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Run the notebook
+6. Done
+
+<br>
+
+For Image Classification Model, you can run the model in your local machine by following these steps:
+
+1. Clone the Machine Learning Repository
+
+```bash
+git clone https://github.com/EcoJourney-Bangkit-Capstone/EcoJourney-ML.git
+```
+
+2. Change the directory to /Waste-Image-Classification/
+
+```bash
+cd Waste-Image-Classification/
+```
+
+3. Download image classification dataset from [Drive](https://drive.google.com/drive/folders/153YmYgm2rV4s0FJ5HKiO-UQ5wUCtS_C5?usp=sharing)
+4. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Run the notebook
+6. Done
 
 ---
 
